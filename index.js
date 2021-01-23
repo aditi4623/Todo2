@@ -17,8 +17,5 @@ app.put("/:id", EDIT_TASK);
 app.put("/mark/:id", MARK_COMPLETE);
 app.get('/', GET_TASK);
 
-app.get("/", (req, res) => {
-    res.send("Hello World");
-});
 
 app.listen(port)
